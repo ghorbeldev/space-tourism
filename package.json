@@ -1,6 +1,6 @@
 {
-	"homepage": "http://ghorbeldev.github.io/space-tourism",
-	"name": "space-tourism-website",
+	"homepage": "http://ghorbeldev.github.io/space-tourism/",
+	"name": "space-tourism",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

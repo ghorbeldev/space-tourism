@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Routes, Route } from 'react-router';
 import Header from '../header/Header';
 import Hero from '../hero/Hero';
@@ -9,7 +9,7 @@ import Technology from '../technology/Technology';
 import data from '../../data.json';
 const PageWrapper = () => {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Box
 				sx={{
 					overflowX: 'hidden',
@@ -32,7 +32,7 @@ const PageWrapper = () => {
 					/>
 				</Routes>
 			</Box>
-		</BrowserRouter>
+		</HashRouter>
 	);
 };
 
