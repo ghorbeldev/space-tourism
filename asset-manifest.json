@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/space-tourism/static/js/main.9daacb9d.js",
+    "index.html": "/space-tourism/index.html",
+    "main.9daacb9d.js.map": "/space-tourism/static/js/main.9daacb9d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9daacb9d.js"
+  ]
+}
