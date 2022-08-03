@@ -6,13 +6,13 @@ import SpecialHeading from '../special-heading/SpecialHeading';
 
 const mobileBg =
 	process.env.PUBLIC_URL +
-	'./assets/destination/background-destination-mobile.jpg';
+	'/assets/destination/background-destination-mobile.jpg';
 const desktopBg =
 	process.env.PUBLIC_URL +
-	'./assets/destination/background-destination-desktop.jpg';
+	'/assets/destination/background-destination-desktop.jpg';
 const tabletBg =
 	process.env.PUBLIC_URL +
-	'./assets/destination/background-destination-tablet.jpg';
+	'/assets/destination/background-destination-tablet.jpg';
 
 const Destination = ({ data }) => {
 	const [activeIndex, setActiveIndex] = useState(0);
@@ -57,7 +57,7 @@ const Destination = ({ data }) => {
 					}}
 				>
 					<img
-						src={data[activeIndex].images.png}
+						src={process.env.PUBLIC_URL + data[activeIndex].images.png}
 						alt='PLANET'
 						loading='lazy'
 						style={{

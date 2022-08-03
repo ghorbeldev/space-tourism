@@ -61,7 +61,7 @@ const Header = () => {
 		>
 			<Toolbar disableGutters sx={{ pl: { xs: '1rem', sm: '2rem' } }}>
 				<img
-					src={process.env.PUBLIC_URL + './assets/shared/logo.svg'}
+					src={process.env.PUBLIC_URL + '/assets/shared/logo.svg'}
 					alt='Logo'
 				/>
 

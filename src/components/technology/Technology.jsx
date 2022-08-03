@@ -5,13 +5,13 @@ import SpecialHeading from '../special-heading/SpecialHeading';
 import { Tab, Tabs, Typography, useMediaQuery } from '@mui/material';
 const mobileBg =
 	process.env.PUBLIC_URL +
-	'./assets/technology/background-technology-mobile.jpg';
+	'/assets/technology/background-technology-mobile.jpg';
 const desktopBg =
 	process.env.PUBLIC_URL +
-	'./assets/technology/background-technology-desktop.jpg';
+	'/assets/technology/background-technology-desktop.jpg';
 const tabletBg =
 	process.env.PUBLIC_URL +
-	'./assets/technology/background-technology-tablet.jpg';
+	'/assets/technology/background-technology-tablet.jpg';
 const Technology = ({ data }) => {
 	const [activeIndex, setActiveIndex] = useState(0);
 	const handleChange = (event, newValue) => {

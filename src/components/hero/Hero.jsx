@@ -1,9 +1,12 @@
 import { Box, Container } from '@mui/system';
 import React from 'react';
 import { Button, Typography } from '@mui/material';
-const desktopBg = './assets/home/background-home-desktop.jpg';
-const tabletBg = './assets/home/background-home-tablet.jpg';
-const mobileBg = './assets/home/background-home-mobile.jpg';
+const desktopBg =
+	process.env.PUBLIC_URL + '/assets/home/background-home-desktop.jpg';
+const tabletBg =
+	process.env.PUBLIC_URL + '/assets/home/background-home-tablet.jpg';
+const mobileBg =
+	process.env.PUBLIC_URL + '/assets/home/background-home-mobile.jpg';
 
 const Hero = () => {
 	return (

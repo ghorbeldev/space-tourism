@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 import SpecialHeading from '../special-heading/SpecialHeading';
 
 const mobileBg =
-	process.env.PUBLIC_URL + './assets/crew/background-crew-mobile.jpg';
+	process.env.PUBLIC_URL + '/assets/crew/background-crew-mobile.jpg';
 const desktopBg =
-	process.env.PUBLIC_URL + './assets/crew/background-crew-desktop.jpg';
+	process.env.PUBLIC_URL + '/assets/crew/background-crew-desktop.jpg';
 const tabletBg =
-	process.env.PUBLIC_URL + './assets/crew/background-crew-tablet.jpg';
+	process.env.PUBLIC_URL + '/assets/crew/background-crew-tablet.jpg';
 const Ball = styled('span')(({ theme }) => ({
 	padding: 0,
 	margin: 0,
